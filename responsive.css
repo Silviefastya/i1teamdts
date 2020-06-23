@@ -1,0 +1,187 @@
+/* Untuk Tablet */
+@media all and (max-width: 1000px) {
+  
+  .foto {
+    width: 50%;
+  }
+
+  .column {
+    width: 50%;
+    display: block;
+  }
+  
+  .top-wrapper h1 {
+    font-size: 32px;
+  }
+  
+  .heading h2 {
+    font-size: 20px;
+  }
+  .footer-container{
+   height:750px;
+    padding:0px 50px;
+    
+ }
+ .footer-container h3{
+   border-left:8px solid green;
+   border-bottom:none;
+   padding:10px;
+   margin-top:0px;
+ }
+ .footer-container h2{
+    border-bottom:2px solid green;
+    margin:auto;
+    padding:5px;
+    margin-top:0px;
+    margin-bottom:0px;
+ }
+ .footer-materi{
+  float:none;
+  width:100%;
+  padding-top:20px;
+  }
+  .footer-materi a{
+  padding-bottom:0px;
+  
+ }
+.footer-materi li{
+  padding-bottom:10px;
+  padding-left:15px;
+ }
+ .txt{
+   padding-left:15px;
+ }
+  .logo1 {
+    
+    width:30%;
+  }
+  .logo2 {
+    width:30%;
+  }
+  .btnn{
+    font-size: 30px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+  }
+  .footer-bottom{
+  font-size:75%;
+  width:100%;
+  margin-top:0px;
+  margin-bottom:0px;
+  line-height: 40px;
+}
+.footer-bottom h4{
+  margin-top:0px;
+}
+}
+
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+  .foto {
+    width: 100%;
+  }
+
+  .column {
+    width: 100%;
+    display: block;
+  }
+  
+  footer {
+    text-align: center;
+  }
+  
+  .btn {
+    width: 100%;
+  }
+  
+  .facebook {
+    margin-bottom: 10px;
+  }
+  
+  .top-wrapper {
+    text-align: left;
+  }
+  
+  /* Tambahkan CSS untuk header-right */
+  .header-right {
+    display: none;
+  }
+  
+  /* Tambahkan CSS untuk menu-icon */
+  .menu-icon {
+    display: block;
+  }
+  
+  .top-wrapper h1 {
+    font-size: 75%;
+    line-height: 36px;
+  }
+  
+  .top-wrapper p {
+    font-size: 50%;
+    line-height: 20px;
+  }
+  .footer-container{
+   height:750px;
+    padding:0px 50px;
+    margin-top:0px;
+    margin-bottom:0px;
+  }
+ .footer-container h3{
+   border-left:8px solid green;
+   border-bottom:none;
+   padding:10px;
+   margin-top:0px;
+   font-size:14px;
+ }
+ .footer-container h2{
+    border-bottom:2px solid green;
+    margin:auto;
+    padding:5px;
+    font-size:16px;
+ }
+ .footer-materi{
+  float:none;
+  width:100%;
+  padding-top:20px;
+  padding-left:15px;
+  }
+.footer-materi ul{
+padding-left:0px;
+font-size:50%;
+}  
+.footer-materi li{
+  padding-bottom:10px;
+  padding-left:15px;
+  font-size:50%;
+ }
+ .footer-materi a{
+  padding-bottom:0px;
+   }
+ .txt{
+   padding-left:15px;
+   font-size:50%;
+ }
+  .logo1 {
+    
+    width:50%;
+  }
+  .logo2 {
+    width:50%;
+  }
+  .btnn{
+    font-size: 40%;
+    padding-right: 0px;
+    padding-bottom: 0px;
+  }
+.footer-bottom{
+  font-size:50%;
+  width:100%;
+  margin-top:0px;
+  margin-bottom:0px;
+  line-height: 40px;
+}
+.footer-bottom h4{
+  margin-top:0px;
+}
+}
